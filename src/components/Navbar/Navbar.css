@@ -1,0 +1,32 @@
+.navbar li {
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    height: 30px
+  }
+  
+  .itemLeft {
+    width: 20%;
+  }
+  
+  .itemCenter {
+      width: 60%;
+  }
+  
+  .itemRight {
+    width: 20%;
+  }
+  
+  .navbar {
+    background: salmon;
+  }
+  
+  li {
+    color: white;
+    padding: 5px 0;
+  }
+  
+  body {
+    font-size: 24px;
+  }
