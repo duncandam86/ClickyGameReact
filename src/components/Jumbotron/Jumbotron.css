@@ -10,5 +10,7 @@ h4{
     font-weight: 500
 }
 .score{
-    color: red
+    color: red;
+    font-size: 20px;
+    font-weight: 500
 }

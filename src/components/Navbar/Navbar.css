@@ -1,21 +1,10 @@
-.navbar li {
+.navbar {
+    width: 100%;
     display: inline-block;
     text-align: center;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: bold;
-  }
- 
-  .itemCenter{
-    width: 100%
-  }
-  .navbar {
+    color: white;
     background: salmon;
   }
   
-  li {
-    color: white;
-  }
-  
-  body {
-    font-size: 24px;
-  }

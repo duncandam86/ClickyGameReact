@@ -1,9 +1,13 @@
 footer {
     width: 100%;
-    padding: 2px 0;
+    height: 50px;
     background-color: lightblue;
     font-family: 'Baloo Thambi', cursive;
     font-weight: bold;
     text-align: center;
     color: black;
+}
+p{
+    padding-top: 10px;
+    font-size: 20px
 }

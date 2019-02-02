@@ -5,7 +5,7 @@ import "./Footer.css";
 const Footer = () => (
 	<footer className = "page-footer">
 		<div className = "container-fluid text-center">
-			<p>Duncan Hieu M Dam</p>
+			<p>Duncan Hieu M. Dam</p>
 		</div>
 	</footer>
 );

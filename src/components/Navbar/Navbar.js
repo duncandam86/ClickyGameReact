@@ -4,12 +4,8 @@ import "./Navbar.css";
 
 const Navbar = props => {
   return (
-    <nav className="navbar navbar-default navbar-fixed-top text-center item-center">
-      <ul>
-        <li className="itemLeft">Test your memory</li>
-        <li className="itemCenter">{props.message}</li>
-        <li className="itemRight"></li>
-      </ul>
+    <nav className="navbar navbar-default navbar-fixed-top ">
+      {props.message}
     </nav>
   )
 }

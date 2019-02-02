@@ -54,9 +54,7 @@ class App extends Component {
     };
     // if score is 16 set to win
     if (this.state.score === 16) {
-      this.setState({
-        message: "Congratulations! You won!"
-      })
+      alert("Yay you won!")
       this.setState({
         //shuffling all queen' cards
         queens: this.state.queens.sort((a, b) => 0.5 - Math.random()),
@@ -64,6 +62,7 @@ class App extends Component {
         clickedQueen: [],
         //reset score
         score: 0,
+        message: "Congratulations! You won!"
       })
     };
 
