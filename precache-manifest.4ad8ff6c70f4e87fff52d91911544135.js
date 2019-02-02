@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/ClickyGameReact/static/media/Kimchi.37ced9ef.jpg"
   },
   {
-    "revision": "e056cbfd5c4f420d8321",
-    "url": "/ClickyGameReact/static/css/main.463b9acb.chunk.css"
+    "revision": "82cf3fc511eeacba8824",
+    "url": "/ClickyGameReact/static/css/main.cf69979a.chunk.css"
   },
   {
     "revision": "fa92c112869d3657d47b",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/ClickyGameReact/static/media/Katya.76a2621f.jpg"
   },
   {
-    "revision": "e056cbfd5c4f420d8321",
-    "url": "/ClickyGameReact/static/js/main.e056cbfd.chunk.js"
+    "revision": "82cf3fc511eeacba8824",
+    "url": "/ClickyGameReact/static/js/main.82cf3fc5.chunk.js"
   },
   {
     "revision": "b8e125a6c502dcaae02bc3d75fd7cffa",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/ClickyGameReact/static/media/Yuhua.cddd9ec0.jpg"
   },
   {
-    "revision": "72a5def43e32f3c1b8f2644f0fd381be",
+    "revision": "d74ad0eea42dc258ede69c455ff3fb69",
     "url": "/ClickyGameReact/index.html"
   }
 ];
