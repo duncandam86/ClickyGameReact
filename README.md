@@ -6,7 +6,7 @@ We created a memory game with React. You will be tested on your memory of our fa
 
 ## Links
 * *Github: https://github.com/duncandam86/ClickyGameReact/* 
-* *Heroku: https://duncandam86.github.io/ClickyGameReact/*
+* *Live Link: https://duncandam86.github.io/ClickyGameReact/*
 
 ## Technical Requirements
 * Javascript
