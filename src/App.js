@@ -22,18 +22,18 @@ class App extends Component {
     //set a current clicked queen card and store in a variable
     const currentClickedQueen = event.target.alt;
     //find the index of the currentclickedqueen in the clicked queen array
-    const alreadyClickedQueen = this.state.clickedQueen.indexOf(currentClickedQueen) 
+    const alreadyClickedQueen = this.state.clickedQueen.indexOf(currentClickedQueen)
 
     //if clicked Queen has been selected previously, set state to the begining and all cards are reordered
     if (alreadyClickedQueen !== -1) {
-      alert ("You already clicked her. Sorry you lost!!")
+      alert("You already clicked her. Sorry you lost!!")
       this.setState({
         //shuffling all queen' cards
         queens: this.state.queens.sort((a, b) => 0.5 - Math.random()),
         //empty clickedQueen array
         clickedQueen: [],
         //reset score
-        score:0,
+        score: 0,
         //set message
         message: "You lost"
       })
@@ -66,7 +66,7 @@ class App extends Component {
         score: 0,
       })
     };
-    
+
     // store top score 
     if (this.state.score > this.state.topScore) {
       this.setState({
@@ -79,14 +79,14 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar
-          topScore ={this.state.topScore}
-          score={this.state.score}
           message={this.state.message}
         />
-        <Jumbotron />
+        <Jumbotron 
+          topScore={this.state.topScore}
+          score={this.state.score} 
+        />
         <Wrapper>
           {this.state.queens.map(queen => (
-            //need to look at activity 29
             <DragQueenCard
               imageClick={this.imageClick}
               id={queen.id}
